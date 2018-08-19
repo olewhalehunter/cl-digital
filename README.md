@@ -11,3 +11,6 @@
 * (load "digital.lisp")
 * see TEST-SIMULATE in digital.lisp for sample
 
+# Todo
+* re-implement in Indigo http://github.com/olewhalehunter/indigo.lisp
+* parts registration and layout planning, component libraries
