@@ -10,7 +10,7 @@
 
 # Requirements
 * netlistsvg for vector schematic drawing http://github.com/nturley/netlistsvg
-* JSOWN for netlist exports
+* JSOWN for netlist exports http://github.com/madnificent/jsown
 
 # Use
 * (load "digital.lisp")
