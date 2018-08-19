@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" style="fill:none; stroke:#b9F" width="338" height="232">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="inputExt" transform="translate(222,16)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel" s:attribute="ref">I1</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(80,46)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel" s:attribute="ref">I0</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,190.5)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel" s:attribute="ref">B</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,113.5)" s:width="30" s:height="20">
+    <text x="15" y="-4" class="nodelabel" s:attribute="ref">A</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="and" transform="translate(293,26)" s:width="30" s:height="25">
+    <s:alias val="$and"/>
+    <s:alias val="$logic_and"/>
+    <s:alias val="$_AND_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="reduce_xor" transform="translate(293,170.5)" s:width="33" s:height="25">
+    <s:alias val="$xor"/>
+    <s:alias val="$reduce_xor"/>
+    <s:alias val="$_XOR_"/>
+    <path d="M3,0 A30 25 0 0 1 3,25 A30 25 0 0 0 33,12.5 A30 25 0 0 0 3,0"/>
+    <path d="M0,0 A30 25 0 0 1 0,25"/>
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="33" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(225,180.5)" s:width="30" s:height="20">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <path d="M0,0 L0,20 L20,10 Z"/>
+    <circle cx="23" cy="10" r="3"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="or" transform="translate(223.5,113.5)" s:width="30" s:height="25">
+    <s:alias val="$or"/>
+    <s:alias val="$logic_or"/>
+    <s:alias val="$_OR_"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0"/>
+    <path d="M0,0 A30 25 0 0 1 0,25"/>
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="30" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="reduce_nor" transform="translate(151,128.5)" s:width="33" s:height="25">
+    <s:alias val="$nor"/>
+    <s:alias val="$reduce_nor"/>
+    <s:alias val="$_NOR_"/>
+    <path d="M0,25 L0,25 L15,25 A15 12.5 0 0 0 15,0 L0,0"/>
+    <path d="M0,0 A30 25 0 0 1 0,25"/>
+    <circle cx="34" cy="12.5" r="3"/>
+    <g s:x="3" s:y="5" s:pid="A"/>
+    <g s:x="3" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="split" transform="translate(169.33333333333334,35.5)" s:width="5" s:height="40">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body" style="fill:none;"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+  </g>
+  <g s:type="split" transform="translate(98.33333333333333,180)" s:width="5" s:height="40">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body" style="fill:none;"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+  </g>
+  <g s:type="split" transform="translate(98.33333333333333,103)" s:width="5" s:height="40">
+    <rect width="5" height="40" class="splitjoinBody" s:generic="body" style="fill:none;"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+  </g>
+  <line x1="250" y1="26" x2="268" y2="26"/>
+  <line x1="268" y1="26" x2="268" y2="31"/>
+  <line x1="268" y1="31" x2="293" y2="31"/>
+  <line x1="174.33333333333334" y1="46" x2="293" y2="46"/>
+  <line x1="253.5" y1="126" x2="268" y2="126"/>
+  <line x1="268" y1="126" x2="268" y2="175.5"/>
+  <line x1="268" y1="175.5" x2="296" y2="175.5"/>
+  <line x1="250" y1="190.5" x2="296" y2="190.5"/>
+  <line x1="103.33333333333333" y1="190.5" x2="225" y2="190.5"/>
+  <line x1="174.33333333333334" y1="66" x2="197" y2="66"/>
+  <line x1="197" y1="66" x2="197" y2="118.5"/>
+  <line x1="197" y1="118.5" x2="226.5" y2="118.5"/>
+  <line x1="187" y1="141" x2="197" y2="141"/>
+  <line x1="197" y1="141" x2="197" y2="133.5"/>
+  <line x1="197" y1="133.5" x2="226.5" y2="133.5"/>
+  <line x1="103.33333333333333" y1="113.5" x2="223.5" y2="113.5"/>
+  <line x1="103.33333333333333" y1="133.5" x2="154" y2="133.5"/>
+  <line x1="103.33333333333333" y1="210.5" x2="126" y2="210.5"/>
+  <line x1="126" y1="210.5" x2="126" y2="148.5"/>
+  <line x1="126" y1="148.5" x2="154" y2="148.5"/>
+  <line x1="108" y1="56" x2="169.33333333333334" y2="56"/>
+  <line x1="40" y1="200.5" x2="98.33333333333333" y2="200.5"/>
+  <line x1="40" y1="123.5" x2="98.33333333333333" y2="123.5"/>
+</svg>
