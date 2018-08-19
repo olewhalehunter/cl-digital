@@ -5,7 +5,12 @@
 
 * RTL Digital Hardware Design
 * EDA Simulation and Schematic Drawing
-* Runtime Modeling in Common Lisp
+* Digital Runtime Modeling in Common Lisp
+* Circuit Drawing
+
+# Requirements
+* netlistsvg for vector schematic drawing http://github.com/nturley/netlistsvg
+* JSOWN for netlist exports
 
 # Use
 * (load "digital.lisp")
